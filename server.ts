@@ -1,6 +1,8 @@
+import { fashionDB } from './fashion_db';
 
 import * as express from 'express';
 import { db } from './db';
+import { sportsDB } from './sports_db';
 
 
 const app = express();
@@ -18,6 +20,14 @@ app.use((req, res, next) => {
 
 app.get('/feed', (req, res) => {
     res.json(db);
+});
+
+app.get('/sports', (req, res) => {
+    res.json(sportsDB);
+});
+
+app.get('/fashion', (req, res) => {
+    res.json(sportsDB);
 });
 
 
