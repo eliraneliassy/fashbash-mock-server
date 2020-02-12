@@ -27,7 +27,7 @@ app.get('/sports', (req, res) => {
 });
 
 app.get('/fashion', (req, res) => {
-    res.json(sportsDB);
+    res.json(fashionDB);
 });
 
 
