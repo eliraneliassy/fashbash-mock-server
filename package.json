@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/node": "^13.1.8",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ts-node": "^8.6.2"
   },
   "devDependencies": {
